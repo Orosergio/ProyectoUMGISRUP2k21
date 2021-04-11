@@ -55,8 +55,8 @@ namespace CapaVistaHRM.Sergio.Mantenimientos
             navegador1.DatosActualizar = dataGridView1;
             navegador1.procActualizarData();
             navegador1.procCargar();
-            navegador1.ayudaRuta = "";
-            navegador1.ruta = "";
+            navegador1.ayudaRuta = "AyudasSergio/AyudasMantenimiento.chm";
+            navegador1.ruta = "AYUDA FORMULARIO CURSO.html";
         }
 
         private void rdActivo_CheckedChanged(object sender, EventArgs e)
