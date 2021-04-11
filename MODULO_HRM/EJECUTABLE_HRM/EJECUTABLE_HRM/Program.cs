@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaVistaHRM.MDI;
+using CapaVistaHRM.Sergio.Mantenimientos;
 
 namespace EJECUTABLE_HRM
 {
@@ -17,7 +18,7 @@ namespace EJECUTABLE_HRM
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmMDI());
+            Application.Run(new CapaVistaHRM.Sergio.Mantenimientos.frmCurso("JLOPEZ"));
         }
     }
 }
